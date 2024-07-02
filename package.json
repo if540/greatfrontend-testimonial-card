@@ -1,0 +1,27 @@
+{
+  "name": "greatfrontend-testimonial-card",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "deploy": "vite build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "vue": "^3.4.29"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "autoprefixer": "^10.4.19",
+    "gh-pages": "^6.1.1",
+    "postcss": "^8.4.39",
+    "sass": "^1.77.6",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1",
+    "vue-tsc": "^2.0.21"
+  },
+  "homepage": "https://if540.github.io/greatfrontend-testimonial-card"
+}
