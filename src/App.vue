@@ -6,3 +6,9 @@ import testimonialCard from './components/testimonialCard.vue'
   <testimonialCard />
 </template>
 
+<style>
+#app {
+  overflow: hidden;
+  padding: 200px 0;
+}
+</style>
